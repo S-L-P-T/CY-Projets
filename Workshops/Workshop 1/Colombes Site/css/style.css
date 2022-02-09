@@ -1,0 +1,288 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#conteneur{
+    margin-top: 1%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 1%;
+}
+
+h1{
+    font-size: 50px;
+}
+
+.inscription{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.connexion{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+nav{
+    width: 100%;
+    margin: 0 auto;
+    background-color: #40467d;
+    position: sticky;
+    top: 0px;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav ul::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav a{
+    display: block;
+    text-decoration: none;
+
+    border-bottom: 2px solid transparent;
+    padding: 10px 0px;
+}
+
+nav ul li a{
+    color: white;
+}
+
+nav ul li ul li a{
+    color: #7f7f7f;
+}
+
+nav a:hover{
+    color: white;
+    background-color: #2d2d69;
+    border-bottom: 2px solid #7f7f7f;
+}
+
+.sous{
+    display: none;
+    box-shadow: 0px 1px 2px #CCC;
+    background-color: white;
+}
+
+nav > ul li:hover .sous{
+    display: block;
+}
+
+.sous li{
+    float: none;
+    width: 100%;
+    text-align: left;
+}
+
+.sous a{
+    padding: 10px;
+    border-bottom: none; 
+}
+
+.sous a:hover{
+    border-bottom: none;
+    background-color: #40467d;
+    color: white;
+}
+
+.deroulant > a::after{
+    content: " ▼";
+    font-size: 12px;
+}
+
+.deroulant > a:hover::after{
+    content: " ▲";
+    font-size: 12px;
+}
+
+.sous {
+    display: none;
+    box-shadow: 0px 1px 2px #CCC;
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav ul li{
+    float: left;
+    width: 25%;
+    text-align: center;
+    position: relative;
+}
+
+
+
+
+.form_demo2 input[type="submit"] {
+    background-color: white;
+	color: #7f7f7f;
+	border: 1px solid #7f7f7f;
+	border-radius: 10000px;
+    font-size: 25px;
+	padding: 10px;
+	transition: all 0.5s ease;
+}
+
+.form_demo2 input[type="submit"]:active {
+	padding: 10px;
+}
+
+.form_demo2 input[type="submit"]:hover {
+	background-color: #40467d;
+	color: white;
+	cursor: pointer;
+}
+
+
+
+
+.form_demo input[type="button"] {
+    background-color: white;
+	color: #7f7f7f;
+	border: 1px solid #7f7f7f;
+	border-radius: 10000px;
+    font-size: 25px;
+	padding: 10px;
+	transition: all 0.5s ease;
+}
+
+.form_demo input[type="button"]:active {
+	padding: 10px;
+}
+
+.form_demo input[type="button"]:hover {
+	background-color: #40467d;
+	color: white;
+	cursor: pointer;
+}
+
+
+.form_demo1 input[type="submit"] {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    background-color: #40467d;
+	color: white;
+	border: 1px solid #7f7f7f;
+	border-radius: 10000px;
+    font-size: 25px;
+    padding: 10px;
+    transition: all 0.5s ease;
+}
+
+.form_demo1 input[type="submit"]:active {
+	padding: 10px;
+}
+
+.form_demo1 input[type="submit"]:hover {
+	background-color: white;
+	color: #7f7f7f;
+	cursor: pointer;
+}
+
+
+
+#connexion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#inscription{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputbasic {
+    background-color: #40467d;
+	border: 1px solid #7f7f7f;
+	border-radius: 3px;
+    font-size: 25px;
+    padding: 10px;
+	transition: all 0.5s ease;
+}
+
+.inputbasic:hover {
+	background-color: white;
+	color: #7f7f7f;
+}
+
+.inputbasic:focus {
+	background-color: white;
+	color: #7f7f7f;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    white;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    white;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    white;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+   color:    white;
+}
+
+
+label{
+    color: #7f7f7f;
+    font-size: 25px;
+}
+
+.button1{
+    margin-bottom: 5px;
+}
+
+#actu{
+    width: 90%;
+    border: 1px solid #7f7f7f;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    color: #40467d;
+    font-size: 40px;
+}
+
+#actu p{
+    color: #7f7f7f;
+    width: 500px;
+    font-size: 30px;
+}
+
+#yolo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#bloc1{
+    margin-bottom: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image1{
+    margin-right: 1%;
+}

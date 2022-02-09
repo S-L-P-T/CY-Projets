@@ -1,0 +1,126 @@
+<html>
+	<head>
+		<title>Inscription</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="../css/style.css">
+        <link rel="icon" type="image/png" sizes="16x16" href="../img/Sans titre - 2.png">
+	</head>
+	<body>
+		<div id="conteneur">
+			<div class="image"><a href="./index.html"><img src="../img/Sans titre - 1.png" width="264" height="176"></a></div>
+			<div class="titre"><h1 style="color: #7f7f7f">Colombes Event</h1></div>
+			<div class="boutons">
+				<form method="POST" action="" class="form_demo">
+					<table>
+						<tr>
+							<td>
+								<a href="./inscription.html">
+									<input class="inscription" type="button" name="forminscription" value="Inscription">
+								</a>
+							</td>
+							<td>
+								<a href="./connexion.html">
+									<input  class="connexion" type="button" name="forminscription" value="Connexion">
+								</a>
+							</td>
+						</tr>
+					</table>
+				</form>
+			</div>
+		</div>
+		<nav>
+			<ul>
+				<li class="deroulant"><a href="#">Sport</a>
+					<ul class="sous">
+						<li><a href="#">Tour du quartier à vélo</a></li>
+						<li><a href="#">Tournoi de pétanque</a></li>
+					</ul>
+				</li>
+				<li class="deroulant"><a href="#">Culture</a>
+					<ul class="sous">
+						<li><a href="#">Sortie Cinéma</a></li>
+						<li><a href="#">Atelier peinture</a></li>
+					</ul>
+				</li>
+				<li class="deroulant"><a href="#">Ecologie</a>
+					<ul class="sous">
+						<li><a href="#">Ramassage des déchets</a></li>
+						<li><a href="#">Atelier plante</a></li>
+					</ul>
+				</li>
+				<li class="deroulant"><a href="#">Social</a>
+					<ul class="sous">
+						<li><a href="#">Fête des voisins</a></li>
+						<li><a href="#">Pique nique</a></li>
+						<li><a href="#">Brocante</a></li>
+					</ul>
+				</li>
+			</ul>
+		</nav>
+
+
+
+        <div id="inscription">
+			<div><h1 style="color: #7f7f7f">Inscription</h1></div>
+			<br /><br />
+			<form method="POST" action="" class="form_demo2">
+				<div>
+					<table>
+						<tr>
+							<td align="right">
+								<label for="pseudo">Nom prénom :</label>
+							</td>
+							<td>
+								<input type="text" placeholder="Votre nom prénom" id="pseudo" name="pseudo" class="inputbasic">
+							</td>
+						</tr>
+						<tr>
+							<td align="right">
+								<label for="mail">Mail :</label>
+							</td>
+							<td>
+								<input type="email" placeholder="Votre mail" id="mail" name="mail" class="inputbasic">
+							</td>
+						</tr>
+						<tr>
+							<td align="right">
+								<label for="mail2">Confirmation du mail :</label>
+							</td>
+							<td>
+								<input type="email" placeholder="Confirmez votre mail" id="mail2" name="mail2" align="right" class="inputbasic">
+							</td>
+						</tr>
+						<tr>
+							<td align="right">
+								<label for="mdp">Mot de passe :</label>
+							</td>
+							<td>
+								<input type="password" placeholder="Votre mot de passe" id="mdp" name="mdp" class="inputbasic">
+							</td>
+						</tr>
+						<tr>
+							<td align="right">
+								<label for="mdp2">Confirmation du mot de passe :</label>
+							</td>
+							<td>
+								<input style="focus" type="password" placeholder="Confirmez mot de passe" id="mdp2" name="mdp2" class="inputbasic">
+							</td>
+						</tr>
+					</table>
+				</div>
+				<br />
+			</form>
+			<div>
+				<form method="POST" action="" class="form_demo2">
+					<input type="submit" name="forminscription" value="Je m'inscris">
+				</form>
+			</div>
+		</div>
+
+
+
+		<form method="POST" action="" class="form_demo1">
+			<input type="submit" name="forminscription" value="Créer +">
+		</form>
+	</body>
+</html>
